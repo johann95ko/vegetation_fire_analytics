@@ -1,5 +1,5 @@
 # Fire risk analytics model
-This is an A.I vegetation fire analytics model that utilises IBM Watson vision recognition, Sklearn linear regression model and IBM Db2. The purpose of such an analytics model is to assign a risk score for vegetation fire from a set of video frames and sensor data (i.e temperature, humidity, weather). 
+This is an A.I vegetation fire analytics model that utilises IBM Watson vision recognition, Sklearn linear regression model and IBM Db2. The purpose of such an analytics model is to assign a risk score for vegetation fire from a set of video frames and sensor data (i.e temperature, humidity, weather). If a fire is spotted, Red rhino robot (autonomouse firefighting responder) is activated.
 
 ## How to run
 1. Install and create [virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)

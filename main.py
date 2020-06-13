@@ -29,7 +29,7 @@ def main():
         risk_regression_model.train(training_set_url=training_set_url)
 
     elif os.getenv('MODE') == 'predict':
-        have_combustible = visual_recog(os.getenv('FRAME'))
+        have_combustible = visual_recog(os.getenv('FRAME'), location_name)
         prediction = risk_regression_model.predict(temp, 
                                       is_raining, 
                                       is_sunny, 
